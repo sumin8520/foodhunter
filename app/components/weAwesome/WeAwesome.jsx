@@ -23,8 +23,8 @@ const WeAwesome = () => {
           </h1>
 
           {/* Description */}
-          <p className="py-2">앙기모</p>
-          <p>앙기모 세부</p>
+          <p className="py-2"></p>
+          <p></p>
 
           {/* Icons and text sections */}
           <div className="flex flex-wrap items-center gap-5 mt-3">
