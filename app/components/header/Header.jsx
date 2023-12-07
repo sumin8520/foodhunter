@@ -38,6 +38,14 @@ const Header = () => {
                 음식추천
               </Link>
             </li>
+            <li>
+              <Link
+                className="hover:text-[#3369e7] ease-in-out duration-200"
+                href="/review"
+              >
+                리뷰
+              </Link>
+            </li>
           </ul>
         </nav>
       </header>
