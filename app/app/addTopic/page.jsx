@@ -1,4 +1,4 @@
-import AddTopicForm from '@/components/AddTopicForm'
+import AddTopicForm from '@/app/app/components/AddTopicForm'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '../api/auth/[...nextauth]/route'
 import { redirect } from 'next/navigation'

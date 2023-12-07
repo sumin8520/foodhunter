@@ -41,7 +41,7 @@ const Header = () => {
             <li>
               <Link
                 className="hover:text-[#3369e7] ease-in-out duration-200"
-                href="/review"
+                href="/app"
               >
                 리뷰
               </Link>

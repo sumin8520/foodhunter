@@ -1,5 +1,5 @@
-import connectMongoDB from '@/app/review/libs/mongodb'
-import User from '@/app/review/models/user'
+import connectMongoDB from '@/app/app/libs/mongodb'
+import User from '@/app/app/models/user'
 import { NextResponse } from 'next/server'
 
 export async function POST(request) {

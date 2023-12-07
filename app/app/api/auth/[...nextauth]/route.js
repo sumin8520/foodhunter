@@ -1,8 +1,8 @@
 import NextAuth from 'next-auth/next'
 import GoogleProvider from 'next-auth/providers/google'
 import GitHubProvider from 'next-auth/providers/github'
-import connectMongoDB from '@/app/review/libs/mongodb'
-import User from '@/app/review/models/user'
+import connectMongoDB from '@/app/app/libs/mongodb'
+import User from '@/app/app/models/user'
 
 export const authOptions = {
   providers: [

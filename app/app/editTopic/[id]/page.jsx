@@ -1,5 +1,5 @@
-import { authOptions } from '@/app/review/api/auth/[...nextauth]/route'
-import EditTopicForm from '@/app/review/components/EditTopicForm'
+import { authOptions } from '@/app/app/api/auth/[...nextauth]/route'
+import EditTopicForm from '@/app/app/components/EditTopicForm'
 import { getServerSession } from 'next-auth'
 import { redirect } from 'next/navigation'
 import React from 'react'
